@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
         if (boltCountForGreen == 3) {
             boltCountForGreen = 0;
             scoreGreen -= 120;
-            displayForBlue(scoreGreen);
+            displayForGreen(scoreGreen);
             TextView boltView = (TextView) findViewById(R.id.green_bolt);
             boltView.setText(String.valueOf("- - -"));
         }
